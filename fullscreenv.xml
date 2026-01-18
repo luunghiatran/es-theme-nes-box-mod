@@ -1,0 +1,33 @@
+<!--
+theme name:     NES BOX Theme Mod
+creator:		Luu Nghia Tran (base on Travis Wilson)
+email:			luunghiatran@gmail.com
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+ 
+   <view name="system">
+      <helpsystem name="help">
+         <fontSize>0.035</fontSize>     
+         <pos>0.0 0.948</pos>      
+      </helpsystem>
+	  
+	  <image name="background_icon" extra="true">
+         <origin>0 0</origin>
+         <pos>-0.25 0</pos>
+         <size>1.25 1</size>
+      </image>
+   </view>  
+
+   <view name="detailed,video,basic">
+      <helpsystem name="help">
+         <fontSize>0.030</fontSize>     
+         <pos>0.0001 0.948</pos>      
+      </helpsystem>
+   </view>
+
+  
+</theme>
