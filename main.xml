@@ -18,7 +18,7 @@
          <carousel name="systemcarousel">
             <type>vertical</type>
             <!-- <pos>0.05 0.0</pos> -->
-            <pos>0.01 0.0</pos>
+            <pos>-0.015 0.0</pos>
             <logoAlignment>left</logoAlignment>
             <size>1.0 0.934</size>
             <logoScale>1.5</logoScale>
@@ -40,10 +40,11 @@
             <zIndex>4</zIndex>
          </image>
          <text name="systemInfo">
+            <!-- top right info -->
             <!-- <pos>0.25 0.04</pos>
             <size>0.5 0.08</size> -->
             <origin>0 0</origin>
-            <pos>0.01 0.855</pos>
+            <pos>0.30 0.0</pos>
             <size>0.5 0.08</size>
             <backgroundColor>00000000</backgroundColor>
             <color>FFCE45</color>
@@ -57,6 +58,7 @@
 
    <view name="screen">
       <text name="clock">
+         <!-- <pos ifSubset="StatusBar:statusClock">0.845 0.04</pos> -->
          <!-- <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath> -->
          <fontSize>0.04</fontSize>
          <pos>0.9 -0.01</pos>
@@ -65,6 +67,23 @@
          <verticalAlignment>center</verticalAlignment>
          <color>FFFFFF</color>
       </text>
+
+      <batteryIndicator name="batteryIndicator">
+         <pos>0.01 -0.01</pos>
+         <!-- <pos ifSubset="StatusBar:statusBattery">0.935 0.025</pos> -->
+         <size>0.07</size>      <!-- 480x320 / 16x 16y -->
+         <itemSpacing>0.008333333</itemSpacing>
+         <color>FFFFFF</color>
+
+         <!-- Assets -->
+         <full>./_inc/images/battery=full.png</full>
+         <at75>./_inc/images/battery=75.png</at75>
+         <at50>./_inc/images/battery=50.png</at50>
+         <at25>./_inc/images/battery=25.png</at25>
+         <empty>./_inc/images/battery=empty.png</empty>
+         <incharge>./_inc/images/battery=charging.png</incharge>
+         <networkIcon>./_inc/images/wifi=on.png</networkIcon>
+      </batteryIndicator>
    </view>
 
    <view name="system">

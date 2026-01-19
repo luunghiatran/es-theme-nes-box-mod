@@ -4,7 +4,7 @@ theme:          NES BOX Theme Mod designed by Luu Nghia Tran (base on Travis Wil
 
 email:			luunghiatran@gmail.com
 
-version         1.8
+version         1.0
 
 ------------------------------------------------------------------------------------------
 
