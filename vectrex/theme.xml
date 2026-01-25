@@ -39,7 +39,7 @@
          <path>./photo.png</path>
          <origin>1 1</origin>
          <pos>1 0.95</pos>
-         <maxSize>0.6 0.6</maxSize>
+         <maxSize>0.6 0.5</maxSize>
       </image>
    </view>
 
