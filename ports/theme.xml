@@ -3,6 +3,30 @@
    <include>./../theme.xml</include>
 
    <view name="system">
+      <!-- background 1 -->
+      <image name="photo_bg_1" extra="true">
+         <zIndex>2</zIndex>
+         <path>./game_screenshot_1.jpg</path>
+         <origin>0 0</origin>
+         <pos>0.00 0.25</pos>
+         <size>1.00 0.75</size>
+      </image>
+      <image name="photo_bg_2" extra="true">
+         <zIndex>2</zIndex>
+         <path>./game_screenshot_1.jpg</path>
+         <origin>0 0</origin>
+         <pos>0.19 0.00</pos>
+         <size>0.81 0.60</size>
+      </image>
+      <image name="photo_bg_overlap" extra="true">
+         <zIndex>2</zIndex>
+         <path>./../_inc/images/bg_overlap.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+      </image>
+
+
       <image name="logo">
          <path>./system.png</path>
       </image>
