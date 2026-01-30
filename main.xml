@@ -166,7 +166,7 @@
          <!-- Middle right alignment -->
          <origin>1 0.5</origin>
          <pos>1 0.523</pos>
-         <maxSize>0.56 0.82</maxSize>
+         <maxSize>0.50 0.82</maxSize>
 
          <!-- Bottom right corner alignment -->
          <!-- <origin>1 1</origin>
@@ -181,7 +181,7 @@
          <!-- Middle right alignment -->
          <origin>1 0.5</origin>
          <pos>1 0.523</pos>
-         <maxSize>0.56 0.82</maxSize>
+         <maxSize>0.50 0.82</maxSize>
 
          <delay>1</delay>
          <zIndex>3</zIndex>

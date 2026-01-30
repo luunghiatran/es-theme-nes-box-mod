@@ -4,13 +4,7 @@
 
    <view name="system">
       <!-- background 1 -->
-      <image name="photo_bg_1" extra="true">
-         <zIndex>2</zIndex>
-         <path>./game_screenshot_1.jpg</path>
-         <origin>0 0</origin>
-         <pos>0.00 0.25</pos>
-         <size>1.00 0.75</size>
-      </image>
+
       <image name="photo_bg_2" extra="true">
          <zIndex>2</zIndex>
          <path>./game_screenshot_1.jpg</path>
